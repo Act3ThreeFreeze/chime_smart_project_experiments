@@ -48,7 +48,7 @@ hotspot_buffer_size       = exp_params['hotspot_buffer_size']
 method_maps = {
     'CHIME-indirect': 'CHIME',
     'SMART-RCU'     : 'SMART',
-    'Marlin'        : 'Marlin',
+    #'Marlin'        : 'Marlin',
     'ROLEX-indirect': 'ROLEX'
 }
 
