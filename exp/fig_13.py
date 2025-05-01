@@ -81,7 +81,7 @@ def main(cmd: CMDManager, tp: LogParser):
         cmake_option = f'{common_options} {cmake_options[method]}'
 
         for workload, workload_name in workload_names.items():
-            if method == 'ROLEX-indirect' and workload == 'YCSB LOAD':
+            if method == 'ROLEX-indirect' and (workload == 'YCSB LOAD' or workload == "YCSB D"):
                 plot_data['Y_data'][method][workload] = {metrics[0]: 0, metrics[1]: 0, metrics[2]: 0}
                 continue
 

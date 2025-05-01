@@ -59,6 +59,12 @@ def main(cmd: CMDManager, tp: LogParser):
         for method in plot_methods:
 
             for CN_num, client_num_per_CN in CN_and_client_nums[workload][method]:
+                if workload == "YCSB D" and method == "ROLEX":
+                    plot_data['X_data'][method].append(0)
+                    plot_data['Y_data'][method].append(0)
+                    plot_data['BACKUP_data'][method].append(0)
+                    continue
+
                 sufficient_cache = False
                 if method == 'SMART-SC':
                     method = 'SMART'
