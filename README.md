@@ -1,5 +1,9 @@
-# CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory
+We have modified the CHIME's official artifact code/scripts to complete our experiments. 
+The testing cluster is 3 r650 machines on Cloudlab Clemson, instead of 10, which we modify experiment scripts to compensate. 
+We also modify workload generation to reduce workload size and ensure experiments run its course within our allowed time window. 
+Refer to the authors' instructions below for setup and execution.
 
+# CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory
 
 This is the implementation repository of our *SOSP'24* paper: **CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory**.
 This artifact provides the source code of **CHIME** and scripts to reproduce all the experiment results in our paper.

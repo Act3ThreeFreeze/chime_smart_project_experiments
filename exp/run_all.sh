@@ -3,14 +3,14 @@
 start_time=$(date +%s)
 
 
-# useful for this project: 12, 13, 14, 15a, 15b
+# useful for this project: 12, 13, 14, 15a, 15b, 16, 17
 
 # for FIG_NUM in 03a 03b 03c 03d 04a 04b 04c 12 13 14 15a 15b 16 17 18a 18b 18c 18d 18e 18f_19b 19a 19c; do
 #   python3 fig_${FIG_NUM}.py
 #   sleep 1m
 # done
 
-for FIG_NUM in 12 13 14 15a 15b; do
+for FIG_NUM in 12 13 14 15a 15b 16 17; do
   python3 fig_${FIG_NUM}.py
   sleep 1m
 done

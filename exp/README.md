@@ -1,3 +1,5 @@
+We have removed scripts whose corresponding experiment we did not perform.
+
 # Reproduce All Experiment Results
 
 In this folder, we provide code and scripts for reproducing figures in our paper. A 10-node r650 cluster is needed to reproduce all the results.
